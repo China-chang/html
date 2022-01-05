@@ -1,0 +1,345 @@
+#container{
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#header{
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	background: #00376D;
+}
+
+#logo{
+	width: 15%;
+	height: 80px;
+	float: left;
+}
+
+#nav{
+	width: 70%;
+	height: 80px;
+	border: 0px;
+	float: left;
+}
+
+#select{
+	position: absolute;
+	top: 8px;
+	left: 1425px;
+	width: 15%;
+	height: 80px;
+	float: left;
+	z-index: 20;
+}
+
+
+#select ul {margin: 0px; 
+	padding: 0px;}
+	
+#select ul li{
+	height: 30px;
+	width: 115px;
+	list-style: none;
+	float: center;
+	display: inline;
+	font: 0.9em arial,helvetica,sans-serif;
+	text-align: center;
+}
+
+#select ul li a{
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px 0px 0px 8px;
+	text-decoration: none;
+	display: block;
+	background: #00376D;
+	line-height :79px;
+	border:1px solid #00376D;
+}
+
+#select ul li ul li {
+  height: 25px;
+}
+
+#select ul li ul li a {
+    background: none;
+  	line-height: 24px;
+}
+
+#select ul li a:hover {
+  background: #00376D;
+  border-bottom: 1px dashed #FF0000;
+}
+
+#select ul li ul{
+  visibility: hidden;/*display:none;*/
+}
+
+#select ul li:hover ul{
+  visibility: visible;/*display:block;*/
+}
+
+a:link,a:visited,a:active{
+	text-decoration: none;			
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+td{
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#textspan{
+	position: absolute;
+	width:50%;
+	top:150px;
+	left:150px;
+	z-index: 10;
+}
+
+
+#head-text1{
+	font-weight: 600;
+    color: white;
+    margin-right: 10px;
+    font-size: 32px;
+    line-height: 34px;
+}
+
+#head-text2{
+	color: white;
+	font-size: 18px;
+	line-height: 24px;
+	margin-left: 280px;
+}
+
+#choose{
+	position: absolute;
+	width: 62%;
+	height: 120px;
+	top: 520px;
+	left: 325px;
+	z-index: 10;
+	background: white;
+	border-bottom: 0px;
+}
+
+.under{
+    border-bottom: 1px solid #000;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.button{
+	font-size: 18px;
+	color: papayawhip;
+	width: 120px;
+	height: 50px;
+	background: #00376D;
+	border: none;
+}
+		
+#main{
+	width: 100%;
+	height: 2800px;
+	background: #F0F0EF;
+}
+
+.yangshi{
+	width: 75%;
+	background: white;
+	margin:0px auto;
+	padding: 10px 50px;
+	border-top: 50px solid #F0F0EF;	
+}
+
+hr{
+	width: 59px;
+	height: 3px;
+	background: black;
+	float: left;
+}
+
+#warning{
+	height: 80px;
+	
+}
+
+#warning p{
+	font-size: 20px;
+	color: black;
+}
+
+#tuiguang{
+	height: 600px;
+}
+
+#tishi{
+	height: 500px;
+}
+
+#why1{
+	width: 40%;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+
+#why2{
+	width: 60%;
+	height: 300px;
+	float: left;
+}
+
+.p1{
+	font-size: 30px;
+	font-family: "仿宋";	
+}
+
+.kuang{
+	width: 30%;
+	height: 400px;
+	float: left;
+	border-right: 30px solid white;
+	border-radius: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+	transition: .5px;
+}
+
+.kuang img{
+	width: 100%;
+	display: block;
+	transition: 1s;
+}
+
+.kuang:hover img{
+	transform: scale(1.2);
+}
+
+.picture{
+	height: 300px;
+}
+
+.picture img{
+	width: 100%;
+	height: 100%;
+}
+
+.word{
+	width: 100%;
+	height: 100%;
+}
+
+.p2{
+	font-size: 22px;
+}
+
+.p3{
+	font-size: 18px;
+}
+
+#mudidi{
+	height: 600px;
+}
+#footer{
+	width: 100%;
+	height: 280px;
+	background: #00376D;
+/*	font: 1.2em arial,helvetica,sans-serif;*/
+}
+
+dt{
+	list-style: none;
+	float: center;
+	display: inline;
+	font: 1.2em arial,helvetica,sans-serif;
+	text-align: center;
+/*	font-family: "仿宋";*/
+	color: gold;
+}
+
+
+.foot1{
+	width: 12%;
+	height: 60%;
+/*	background: red;*/
+	float: left;
+}
+
+.foot2{
+	width: 22%;
+	height: 60%;
+/*	background: yellow;*/
+	float: left;
+}
+
+.foot3{
+	width: 22%;
+	height: 60%;
+/*	background: blue;*/
+	float: left;
+}
+
+.foot4{
+	width: 22%;
+	height: 60%;
+/*	background: pink;*/
+	float: left;
+}
+
+.foot5{
+	width: 22%;
+	height: 60%;
+/*	background: red;*/
+	float: left;
+}
+
+.foot6{
+	width: 100%;
+	height: 40%;
+/*	background: white;*/
+	text-align: center;
+}
+
+.foot6 p{
+	color: gold;
+	font: 1.2em arial,helvetica,sans-serif;
+	font-family: "仿宋";
+}
+
+.foot6 hr{
+	width: 99.9%;
+	height: 3px;
+	background: gold;
+	float: left;
+}
+.swiper-container {
+    width: 100%;
+    height: 600px;
+    z-index: 0;
+} 
+
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+
